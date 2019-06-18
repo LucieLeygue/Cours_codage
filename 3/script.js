@@ -11,13 +11,13 @@ $( document ).ready(function() {
 
 	function welcome() {
     	var name= getUsername();
-    	$("#welcome").html('<h4>Bienvenue '+name+', <br> soyez pret à renouveler de nouveaux défis ! </h4>');
+    	$("#welcome").html('<h4>Bienvenue '+name+', <br> choisis ton défi et impressionne-nous ! </h4>');
 	};
 welcome();
 
 	function loadChallenges() {
   		$.ajax(
-        	{url: 'https://s3.eu-central-1.amazonaws.com/spintransfer/challenge.json',
+        	{url: 'https://api.myjson.com/bins/oafk9',
         	type: 'GET',
         	dataType: 'json'} 
   		)
