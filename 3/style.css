@@ -9,9 +9,20 @@ body{
 }
 
 nav{
+  display:inline;
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 } 
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
 
 h1{
   font-family: 'Roboto', sans-serif;
@@ -35,11 +46,9 @@ a {
   color: #29324B;
 }
 
-#baseline a:hover {
+a:hover {
   text-decoration: none;
   color: rgb(225, 0, 152);
-  position: relative;
-  top:1px;
 }
 
 #logo{
@@ -47,12 +56,23 @@ a {
   font-size: 35px;
   font-family: 'Pacifico', cursive;
   float: left;
-  margin-left: 50px
+  margin-left: 50px;
+}
+
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
 }
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-image: url(https://i.ytimg.com/vi/yOv1bGK4ZpM/maxresdefault.jpg);
+  background-color: #41A3C0;
   text-align: center;
   background-size: cover;
   padding: 150px;
@@ -72,33 +92,19 @@ a {
   text-decoration: none;
 }
 
-.feature {
-  margin: 15px;
-  padding: 15px 0;
-  text-align: center;
-  width: 400px;
-  background: #FAFAFA;
-  border: 1px solid #F2F2F2;}
-
- #apropos {
-  border: 2px solid #41A3C0;
+#defis{
   margin: 0 auto;
   width: 80%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.red {
-  color: red;
-}  
-
-nav li {
-  margin: 10px;
-  display:inline;
-}
-
-nav ul {
-  float: left;
-  margin-top: 25px;
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
 }
