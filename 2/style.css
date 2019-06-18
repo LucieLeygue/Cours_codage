@@ -80,7 +80,7 @@ a {
   background: #FAFAFA;
   border: 1px solid #F2F2F2;}
 
- #apropos{
+ #apropos {
   border: 2px solid #41A3C0;
   margin: 0 auto;
   width: 80%;
@@ -88,6 +88,10 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.red {
+  color: red;
+}  
 
 nav li {
   margin: 10px;
