@@ -1,4 +1,6 @@
 $( document ).ready(function() {
   alert('Hello')
-  $("p").addClass('red');
+  $("p").on( "click", function() {
+          $("p").addClass('red');
+    });
 });
