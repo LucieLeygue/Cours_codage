@@ -4,14 +4,14 @@ body{
   background: #fff;
   color: #000; 
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Chalkduster', fantasy;
   margin:0;
 }
 
 nav{
   display:inline;
   font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Impact', fantasy;
 } 
 
 nav li {
@@ -24,15 +24,8 @@ nav ul {
   margin-top: 25px;
 }
 
-h1{
-  font-family: 'Roboto', sans-serif;
-  color:  #41A3C0; 
-  font-weight: bolder;
-  font-size: 2em;
-}
-
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Impact', fantasy;
   color: #3b4563;
   font-weight: lighter;
   font-size: 1.5em;
@@ -43,24 +36,25 @@ p{
 }
 
 a { 
-  color: #29324B;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(225, 0, 152);
+  color: rgb(255, 205, 0);
 }
 
 #logo{
-  color: #fff;
+  color: rgb(255, 205, 0);
   font-size: 35px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Impact', fantasy;
   float: left;
   margin-left: 50px;
 }
 
 #welcome{
-  background-color: #41A3C0;
+  background-image: url(file:///Users/Lucieleygue/Desktop/Cours_codage/3/lapin-cretin-baseline.jpg);
+  background-size: cover;
   text-align: center;
   padding: 50px;
   color: white;
@@ -68,28 +62,6 @@ a:hover {
 
 #welcome h4{
  font-size: 50px;
-}
-
-/* Mis en forme de la baseline */
-#baseline{
-  background-color: #41A3C0;
-  text-align: center;
-  background-size: cover;
-  padding: 150px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
-}
-
-#baseline h1 {
-  color: white;
-  font-size: 50px;
-}
-
-#baseline a {
-  color: white;
-  font-size: 30px;
-  font-weight: lighter;
-  text-decoration: none;
 }
 
 #defis{
